@@ -35,6 +35,8 @@ dependencies:
       - "./build/templates/templates.js"
     templates:
       - "./src/templates/*.html"
+      #- "../templates/geodash/*.html"
+      #- "../templates/sparc2/*.html"
     project:
       - "~/geodash-base.git/config.yml"
   test:
