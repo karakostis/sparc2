@@ -2531,31 +2531,31 @@ sidebar:
         {% if hazard == "cyclone" %}{% verbatim %}
         hazard: cyclone
         colors:
-          0-10%: "#00a8c2"
-          10-20%: "#0070c6"
-          20-30%: "#0036ca"
-          30-40%: "#0600ce"
-          40-50%: "#4500d2"
-          50-60%: "#8700d5"
-          60-70%: "#cb00d9"
-          70-80%: "#dd00a9"
-          80-90%: "#e10068"
-          90-100%: "#e50025"
+          0-10%: "#00a878"
+          10-20%: "#60b374"
+          20-30%: "#8dbe6f"
+          30-40%: "#b5c86a"
+          40-50%: "#d9d364"
+          50-60%: "#ffc45b"
+          60-70%: "#ffac59"
+          70-80%: "#ff9257"
+          80-90%: "#ff7655"
+          90-100%: "#ff5252"
         {% endverbatim %}{% elif hazard == "drought" %}{% verbatim %}
         hazard: drought
         colors:
-          0-5%: "#c6dbef"
-          5-10%: "#6baed6"
-          10-20%: "#2171b5"
-          20-100%: "#08306b"
+          0-5%: "#fcdc5d"
+          5-10%: "#ffb45a"
+          10-20%: "#ff8856"
+          20-100%: "#ff5252"
         tooltip: { value: drought_value }
         {% endverbatim %}{% elif hazard == "flood" %}{% verbatim %}
         hazard: flood
         subtype: "bullet"
         colors:
-          rp25: "#4169E1"
-          rp100: "#8396e0"
-          rp1000: "#B0C4DE"
+          rp25: "#fcdc5d"
+          rp100: "#ffa058"
+          rp1000: "#ff5252"
         group_prefix: "rp"
         group_key: "rp"
         group_modifier: 1
@@ -2563,9 +2563,9 @@ sidebar:
         {% endverbatim %}{% elif hazard == "landslide" %}{% verbatim %}
         hazard: landslide
         colors:
-          low: "#1F77B4"
-          medium: "#FFFF00"
-          high: "#FF8C00"
-          very_high: "#D62728"
+          low: "#fcdc5d"
+          medium: "#ffb45a"
+          high: "#ff8856"
+          very_high: "#ff5252"
         {% endverbatim %}{% endif %}
 {% endblock %}
