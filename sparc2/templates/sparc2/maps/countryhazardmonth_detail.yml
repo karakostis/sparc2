@@ -2553,9 +2553,9 @@ sidebar:
         hazard: flood
         subtype: "bullet"
         colors:
-          rp25: "#fcdc5d"
-          rp100: "#ffa058"
-          rp1000: "#ff5252"
+          rp25: "#0370dd"
+          rp100: "#2A93fc"
+          rp1000: "#86C2fd"
         group_prefix: "rp"
         group_key: "rp"
         group_modifier: 1
